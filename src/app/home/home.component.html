@@ -1,0 +1,14 @@
+<div class="menu">
+    <button 
+      *ngFor="let item of menuItems"
+      [ngClass]="{'active': selectedMenu === item}"
+      (click)="selectMenu(item)"
+    >
+      {{ item }}
+    </button>
+  </div>
+  
+  <div class="content">
+    <p>You chose the <span [ngStyle]="{'color':'Red'}">{{ selectedMenu }} </span>menu.</p>
+  </div>
+  

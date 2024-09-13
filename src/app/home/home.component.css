@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.active {
+    background-color: rgb(35, 180, 228);
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #bb4444;
+  }
+  
+  .content {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
