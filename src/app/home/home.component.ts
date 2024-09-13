@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   menuItems:string[] = ['Home', 'Services', 'Contact us'];
   selectedMenu = 'Home';
-  selectedColor:string="green"
+
 
   selectMenu(menu: string) {
     this.selectedMenu = menu; 
